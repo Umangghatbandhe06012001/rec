@@ -4,6 +4,7 @@ import './style.css'
 import PokemonModal from './components/PokemonModal';
 
 export default function App() {
+<<<<<<< Updated upstream
     const [pokemons, setPokemons] = useState([]);
     const [currentPokemonAPI, setCurrentPokemonAPI] = useState("https://content.newtonschool.co/v1/pr/64ccef982071a9ad01d36ff6/pokemonspages1");
     const [selectPokemonInModal, setSelectedPokemonInModal] = useState(null);
@@ -78,4 +79,7 @@ export default function App() {
         </div>
     </>
   )
+=======
+    
+>>>>>>> Stashed changes
 }

@@ -17,8 +17,13 @@ export default function App() {
   return (
     <>
         <Routes>
+<<<<<<< Updated upstream
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About />}/>
+=======
+            <Route path='/Home' index element={<Home/>}/>
+            <Route path='/about' element={<div>This is new baout </div>}/>
+>>>>>>> Stashed changes
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/contact-us' element={<Navigate to='/contact'/>}/>
 
