@@ -12,6 +12,7 @@ export default function Home() {
             <Link to="/contact" state={{leadId: '1123'}}>Contact</Link>
             <Link to="http://www.google.com">Google</Link>
             <Link to="/blogs">Blog 2</Link>
+            <Link to="/query">setQuery</Link>
         </div>
 
         {/* 

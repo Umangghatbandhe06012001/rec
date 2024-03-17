@@ -22,6 +22,7 @@ export default function App() {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/contact-us' element={<Navigate to='/contact'/>}/>
 
+            <Route path='/query' element={<setQuery/>}/>
 
             <Route path='/blogs' element={<BlogLayout/>}>
               <Route index element={<BlogsHome />}/>
